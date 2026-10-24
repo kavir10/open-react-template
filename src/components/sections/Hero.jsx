@@ -1,3 +1,4 @@
+import asset0 from './../../assets/images/video-placeholder.jpg';
 import React, { useState } from 'react';
 import classNames from 'classnames';
 import { SectionProps } from '../../utils/SectionProps';
@@ -88,7 +89,7 @@ const Hero = ({
             >
               <Image
                 className="has-shadow"
-                src={require('./../../assets/images/video-placeholder.jpg')}
+                src={asset0}
                 alt="Hero"
                 width={896}
                 height={504} />
