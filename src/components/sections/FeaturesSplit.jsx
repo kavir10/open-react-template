@@ -1,3 +1,6 @@
+import asset0 from './../../assets/images/features-split-image-01.png';
+import asset1 from './../../assets/images/features-split-image-02.png';
+import asset2 from './../../assets/images/features-split-image-03.png';
 import React from 'react';
 import classNames from 'classnames';
 import { SectionSplitProps } from '../../utils/SectionProps';
@@ -83,7 +86,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-01.png')}
+                  src={asset0}
                   alt="Features split 01"
                   width={528}
                   height={396} />
@@ -109,7 +112,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-02.png')}
+                  src={asset1}
                   alt="Features split 02"
                   width={528}
                   height={396} />
@@ -135,7 +138,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-03.png')}
+                  src={asset2}
                   alt="Features split 03"
                   width={528}
                   height={396} />

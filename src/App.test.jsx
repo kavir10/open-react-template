@@ -1,3 +1,9 @@
+import { vi } from 'vitest';
+
+vi.mock('react-ga', () => ({
+  default: { initialize: vi.fn(), pageview: vi.fn(), set: vi.fn() },
+}));
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router } from 'react-router-dom';

@@ -1,3 +1,9 @@
+import asset0 from './../../assets/images/feature-tile-icon-01.svg';
+import asset1 from './../../assets/images/feature-tile-icon-02.svg';
+import asset2 from './../../assets/images/feature-tile-icon-03.svg';
+import asset3 from './../../assets/images/feature-tile-icon-04.svg';
+import asset4 from './../../assets/images/feature-tile-icon-05.svg';
+import asset5 from './../../assets/images/feature-tile-icon-06.svg';
 import React from 'react';
 import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
@@ -63,7 +69,7 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require('./../../assets/images/feature-tile-icon-01.svg')}
+                      src={asset0}
                       alt="Features tile icon 01"
                       width={64}
                       height={64} />
@@ -85,7 +91,7 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require('./../../assets/images/feature-tile-icon-02.svg')}
+                      src={asset1}
                       alt="Features tile icon 02"
                       width={64}
                       height={64} />
@@ -107,7 +113,7 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require('./../../assets/images/feature-tile-icon-03.svg')}
+                      src={asset2}
                       alt="Features tile icon 03"
                       width={64}
                       height={64} />
@@ -129,7 +135,7 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require('./../../assets/images/feature-tile-icon-04.svg')}
+                      src={asset3}
                       alt="Features tile icon 04"
                       width={64}
                       height={64} />
@@ -151,7 +157,7 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require('./../../assets/images/feature-tile-icon-05.svg')}
+                      src={asset4}
                       alt="Features tile icon 05"
                       width={64}
                       height={64} />
@@ -173,7 +179,7 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require('./../../assets/images/feature-tile-icon-06.svg')}
+                      src={asset5}
                       alt="Features tile icon 06"
                       width={64}
                       height={64} />

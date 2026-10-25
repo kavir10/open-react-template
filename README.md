@@ -138,3 +138,20 @@ We're an Italian developer/designer duo creating high-quality design/code resour
 ## Stay in the loop
 
 If you would like to know when we release new resources, you can follow us on [Twitter](https://twitter.com/Cruip_com), or you can subscribe to our monthly [newsletter](https://cruip.com/#subscribe).
+
+## Patched build toolchain
+
+This fork uses maintained Vite, Vitest, and Dart Sass releases instead of the
+unsupported Create React App 3 / node-sass dependency tree. Existing React pages,
+styles, routes, the port 3000 development URL, the `build/` output directory, and
+public `REACT_APP_*` configuration are preserved.
+
+```sh
+npm ci
+npm start
+npm test
+npm run build
+```
+
+Use Node.js 20.19 or newer. The CRA-specific eject command is no longer needed;
+Vite configuration lives in `vite.config.mjs`.
